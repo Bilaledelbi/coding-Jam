@@ -178,7 +178,7 @@ class Ui_MainWindow(object):
             f2 = float(self.force2.text())
             f = f1 + f2
             self.invalid.setText("")
-            main.play(f,m,v0)
+            horizontalsim.play(f,m,v0)
             
         except:
             self.invalid.setText("Invalid input")
