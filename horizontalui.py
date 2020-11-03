@@ -170,7 +170,7 @@ class Ui_MainWindow(object):
     def clicked(self):
 
 
-        import main
+        import horizontalsim
         try:
             m = float(self.mass.text())
             v0 = float(self.v0.text())
